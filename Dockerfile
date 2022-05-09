@@ -1,4 +1,4 @@
-FROM nginx:mainline-apline
+FROM nginx:alpine
 
 COPY ./index.html /usr/share/nginx/html/
 COPY ./theme/ /usr/share/nginx/html/
