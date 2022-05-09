@@ -1,6 +1,5 @@
 FROM nginx:alpine
 
-COPY ./index.html /usr/share/nginx/html/
-COPY ./theme/ /usr/share/nginx/html/
+COPY ./site/ /usr/share/nginx/html/
 COPY ./docs/ /usr/share/nginx/html/
 COPY ./nginx.conf /etc/nginx/nginx.conf
