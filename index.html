@@ -1,17 +1,5 @@
 <!DOCTYPE html>
-<!--
 
-  Instructions:
-
-  - Save this file.
-  - Replace "USER" with your GitHub username.
-  - Replace "REPO" with your GitHub repo name.
-  - Replace "Your Project" with your project name.
-  - Upload this file (or commit to GitHub Pages).
-
-  Customize as you see fit!
-
--->
 <html>
   <head>
     <meta charset="utf-8" />
@@ -22,19 +10,16 @@
 
     <!-- Flatdoc -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="https://cdn.rawgit.com/rstacruz/flatdoc/v0.9.0/legacy.js"></script>
-    <script src="https://cdn.rawgit.com/rstacruz/flatdoc/v0.9.0/flatdoc.js"></script>
+    <script src="./theme/legacy.js"></script>
+    <script src="./theme/flatdoc.js"></script>
 
     <!-- Flatdoc theme -->
-    <link
-      href="https://cdn.rawgit.com/rstacruz/flatdoc/v0.9.0/theme-white/style.css"
-      rel="stylesheet"
-    />
-    <script src="https://cdn.rawgit.com/rstacruz/flatdoc/v0.9.0/theme-white/script.js"></script>
+    <link href="./theme/style.css" rel="stylesheet" />
+    <script src="./theme/script.js"></script>
 
     <!-- Meta -->
-    <meta content="Score Counter" property="og:title" />
-    <meta content="The simplest score counter." name="description" />
+    <meta content="App Docs" property="og:title" />
+    <meta content="blond-in-blue's app docs." name="description" />
 
     <!-- Initializer -->
     <script>
@@ -46,25 +31,35 @@
       });
     </script>
   </head>
-  <body role="flatdoc">
+  <body role="flatdoc" class="no-literate large-brief">
     <div class="header">
       <div class="left">
-        <h1>Your Project</h1>
+        <h1>Score Counter</h1>
         <ul>
-          <li><a href="https://github.com/USER/REPO">View on GitHub</a></li>
-          <li><a href="https://github.com/USER/REPO/issues">Issues</a></li>
+          <li>
+            <a
+              href="https://apps.apple.com/us/app/game-score-counter/id1396261289"
+              >Download</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://twitter.com/scorecounterapp?s=21&t=N3McFoBnLkpY_0DhRHScwA"
+              >Twitter</a
+            >
+          </li>
         </ul>
       </div>
       <div class="right">
         <!-- GitHub buttons: see http://ghbtns.com -->
-        <iframe
+        <!-- <iframe
           src="http://ghbtns.com/github-btn.html?user=blond-in-blue&amp;repo=app-docs&amp;type=watch&amp;count=true"
           allowtransparency="true"
           frameborder="0"
           scrolling="0"
           width="110"
           height="20"
-        ></iframe>
+        ></iframe> -->
       </div>
     </div>
 
