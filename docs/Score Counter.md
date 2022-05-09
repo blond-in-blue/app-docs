@@ -14,6 +14,8 @@ Using this app is as simple as 1, 2, 3:
 
 Download at <https://apps.apple.com/us/app/game-score-counter/id1396261289>
 
+![](./assets/Simulator%20Screen%20Shot%20-%20iPhone%2011%20Pro%20Max%20-%202020-05-22%20at%2022.25.41.png)
+
 ## Privacy
 
 Score Counter doesn't collect or store any data about you, now or ever. Privacy is a human right.
